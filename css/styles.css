@@ -187,6 +187,8 @@ img {
   background-position: center;
   background-size: cover;
   max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-title {
@@ -318,7 +320,7 @@ img {
 
 .people {
   background-color: var(--color-white);
-  width: calc((100% - 24px * 3) / 4);
+  width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -345,6 +347,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--second-color);
   text-align: center;
+  margin-bottom: 8px;
 }
 
 .network {
@@ -582,6 +585,13 @@ img {
   transform: translateY(0%);
 }
 
+.example-name {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  border: 1px solid var(--border-header);
+  border-top: none;
+}
+
 .example-name .overlay {
   padding: 32px 16px;
   border: 1px solid var(--border-header);
@@ -707,4 +717,21 @@ img {
   border-radius: 4px;
   height: 40px;
   margin-bottom: 26px;
+}
+
+.modal-label {
+  font-size: 12px;
+  line-height: 1.17%;
+  letter-spacing: 0.04em;
+  color: var(--border);
+  display: inline-block;
+  margin-bottom: 4px;
+}
+
+.input-icon {
+  position: absolute;
+}
+
+.input-wrap {
+  position: relative;
 }
