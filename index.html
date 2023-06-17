@@ -542,16 +542,18 @@
         <form class="modal-form">
           <div class="modal-field">
             <label for="name" class="modal-label">Name</label>
-            <input
-              type="text"
-              id="name"
-              class="modal-input"
-              name="name"
-              required
-            />
-            <svg class="input-icon" width="18" height="24">
-              <use href="./images/icons.svg#icon-person"></use>
-            </svg>
+            <div class="input-wrap">
+              <input
+                type="text"
+                id="name"
+                class="modal-input"
+                name="name"
+                required
+              />
+              <svg class="input-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-person"></use>
+              </svg>
+            </div>
           </div>
           <div class="modal-field">
             <label for="phone" class="modal-label">Phone</label>
@@ -582,6 +584,9 @@
                 <use href="./images/icons.svg#icon-email"></use>
               </svg>
             </div>
+          </div>
+          <div class="modal-field">
+            <textarea name="modal-text" id="" placeholder=""></textarea>
           </div>
           <label for="comment" class="modal-label">Comment</label>
           <button type="submit">Send</button>
