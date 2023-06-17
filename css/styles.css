@@ -708,6 +708,10 @@ img {
   margin-bottom: 16px;
 }
 
+.modal-field {
+  margin-bottom: 26px;
+}
+
 .modal-form {
 }
 
@@ -716,7 +720,6 @@ img {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   height: 40px;
-  margin-bottom: 26px;
 }
 
 .modal-label {
