@@ -586,10 +586,32 @@
             </div>
           </div>
           <div class="modal-field">
-            <textarea name="modal-text" id="" placeholder=""></textarea>
+            <label for="comment" class="modal-label">Comment</label>
+            <textarea
+              name="modal-text"
+              id="comment"
+              placeholder="Text input"
+              class="modal-textarea"
+            ></textarea>
           </div>
-          <label for="comment" class="modal-label">Comment</label>
-          <button type="submit">Send</button>
+          <div class="modal-field">
+            <input
+              type="checkbox"
+              name="policy"
+              id="policy"
+              class="input-check visually-hidden"
+              value="true"
+            />
+            <label for="policy" class="check-text"
+              ><span
+                ><svg class="icon-check" width="10" height="8">
+                  <use href="./images/icons.svg#icon-check"></use>
+                </svg> </span
+              >I accept the terms and conditions of the
+              <a href=""> Privacy Policy</a>
+            </label>
+          </div>
+          <button type="submit" class="modal-send">Send</button>
         </form>
       </div>
     </div>
