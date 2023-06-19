@@ -440,6 +440,7 @@ img {
 .footer-div {
   display: flex;
   align-items: baseline;
+  justify-content: space-between;
 }
 
 .footer-div-logo {
@@ -514,6 +515,66 @@ img {
   fill: var(--bcg-pink);
 }
 
+.footer-subscribe {
+  margin-left: 80px;
+}
+.form-subscribe {
+  display: flex;
+}
+
+.subscribe-text {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-white);
+  margin-bottom: 16px;
+}
+
+.icon-subscribe {
+  fill: var(--color-white);
+  margin-left: 16px;
+}
+
+.subscribe-input {
+  width: 264px;
+  height: 40px;
+  border: 1px solid var(--color-white);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: var(--main-color);
+  padding: 8px 16px;
+  margin-right: 24px;
+  color: var(--color-white);
+}
+
+.subscribe-input::placeholder {
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: var(--color-white);
+}
+
+.subscribe-btn {
+  min-width: 165px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--color-white);
+  background-color: var(--bcg-btn-main);
+  padding: 8px 24px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.subscribe-btn:hover,
+.subscribe-btn:focus {
+  background-color: var(--bcg-btn-active);
+}
 /********************---Portfolio--***********************/
 .portfolio {
   padding-top: 96px;
