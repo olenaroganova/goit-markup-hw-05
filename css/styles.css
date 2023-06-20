@@ -515,19 +515,24 @@ img {
   fill: var(--bcg-pink);
 }
 
+/* ----------Subscribe------- */
 .footer-subscribe {
   margin-left: 80px;
 }
 .form-subscribe {
   display: flex;
+  gap: 24px;
 }
 
 .subscribe-text {
   font-weight: 500;
   line-height: 1.5;
+  font-size: 16px;
   letter-spacing: 0.02em;
   color: var(--color-white);
   margin-bottom: 16px;
+}
+.subscribe-label {
 }
 
 .icon-subscribe {
@@ -541,16 +546,17 @@ img {
   border: 1px solid var(--color-white);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
-  background-color: var(--main-color);
-  padding: 8px 16px;
+  background-color: transparent;
+  padding-left: 16px;
   margin-right: 24px;
   color: var(--color-white);
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 }
 
 .subscribe-input::placeholder {
-  font-size: 12px;
-  line-height: 2;
-  letter-spacing: 0.04em;
   color: var(--color-white);
 }
 
